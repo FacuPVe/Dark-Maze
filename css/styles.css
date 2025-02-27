@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#gameCanvas {
+    z-index: 1;
+}
+
+#lightCanvas {
+    z-index: 2;
+    pointer-events: none; /* Para que los eventos pasen a través de este canvas */
+}
+
+#menuCanvas {
+    z-index: 3;
+}
+
+/* Menú de opciones */
+#optionsPanel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
