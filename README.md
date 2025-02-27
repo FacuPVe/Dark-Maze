@@ -1,4 +1,4 @@
-# Dark Maze 🌑
+# Dark Maze
 
 ## Descripción
 Dark Maze es un juego de laberinto en la oscuridad desarrollado con JavaScript y Canvas. Los jugadores deben navegar a través de un laberinto oscuro donde solo pueden ver lo que está dentro de su radio de luz.
